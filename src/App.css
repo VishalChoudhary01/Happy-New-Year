@@ -178,3 +178,23 @@ body{
 .hidden {
   visibility: hidden;
 }
+@media (max-width: 480px) {
+  .app-container {
+    gap: 1.5rem; /* Reduce gap on very small screens */
+    padding: 0.5rem; /* Adjust padding */
+  }
+
+  .box {
+    width: 120px;
+    height: 120px;
+  }
+
+  .gradient-text {
+    font-size: 2rem; /* Further scale down gradient text */
+    top: 5%; /* Adjust text position */
+  }
+
+  .face {
+    font-size: 3rem; /* Adjust font size inside the boxes */
+  }
+}
