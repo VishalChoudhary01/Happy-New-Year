@@ -47,7 +47,7 @@ body{
   background-size: 400% 400%;
   -webkit-background-clip: text;
   color: transparent;
-  animation: gradientText infinite ease-out forwards ;
+  animation: gradientText 8s ease-out forwards ;
   text-align: center;
   padding: 20px;
   position: absolute; /* Position the text over the boxes */
